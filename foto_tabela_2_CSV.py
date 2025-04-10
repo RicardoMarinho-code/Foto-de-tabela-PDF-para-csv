@@ -55,7 +55,7 @@ cv2.imwrite("tabela_thresh.png", thresh)
 with open("tabela_thresh.png", "rb") as image_file:
     image_content = base64.b64encode(image_file.read()).decode('utf-8')
 
-api_key = "8335f9f98baeccc75313eec0f23a4fc86415be5b"
+api_key = "SUA_CHAVE_AQUI"
 
 # Montar a requisição para a Vision API
 url = f"https://vision.googleapis.com/v1/images:annotate?key={api_key}"
